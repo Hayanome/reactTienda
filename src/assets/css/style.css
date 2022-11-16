@@ -1,0 +1,87 @@
+.navbar-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+.navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.navbar-icon{
+    text-align:center; 	
+    background:transparent;
+    border: 0px solid rgba(transparent);
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+    top:50px;
+    left:10%;
+    width:250px;
+}
+header{
+    
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+}
+header .navbar{
+    background-color: transparent !important;
+    font-weight: bold;
+}
+
+button{
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    background-color: rgb(204, 188, 17);
+    border-radius: 2%;
+}
+button:hover{
+    background-color: darkgoldenrod;
+
+}
+input {
+    text-align: center;
+}
+.banner {
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+}
+.flex-container {
+    display: grid;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 1rem;
+    box-sizing: border-box;
+
+}
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 10px 10px 2px black;
+    border: 6px solid transparent;
+    border-radius: 5px;
+}
+.producto:hover{
+    border: 6px solid rgb(204, 188, 17);
+}
+.imagen-Producto{
+    width: 320px;
+}
+
+.inicioSesion{
+    background: url('../Imagenes/login_fondo.jpg');
+}

@@ -1,0 +1,43 @@
+header .navbar{
+    background-color: transparent !important;
+    font-weight: bold;
+}
+.navbar-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+.navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.navbar-icon{
+    text-align:center; 	
+    background:transparent;
+    border: 0px solid rgba(transparent);
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+    top:50px;
+    left:10%;
+    width:250px;
+}
+body{
+    position: relative;
+
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+}
+.login{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    color:rgb(222, 196, 27);
+}

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import NavBar from "./NavBar";
+import Carrito from "./Carrito/Carrito";
+import Inicio from "./Inicio";
+import Login from "./Login";
+import Crearcuenta from "./Crearcuenta";
+import Tienda from "./productos/tienda";
+import React from "react";
+import Cartprovider from "./Carrito/Cartcontext";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <NavBar />
+            <Routes>
+                <Route path="/" element={<Inicio />} />
+                <Route path="/carrito" element={<Carrito />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/crearcuenta" element={<Crearcuenta />} />
+                <Route path="/tienda" element={<Tienda />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
+        </>
+    );
 }
-
+function NotFound() {
+    return <>Ha llegado a una página que no existe</>;
+}
 export default App;

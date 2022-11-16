@@ -1,0 +1,38 @@
+header .navbar{
+    background-color: transparent !important;
+    font-weight: bold;
+}
+.navbar-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+.navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.navbar-icon{
+    text-align:center; 	
+    background:transparent;
+    border: 0px solid rgba(transparent);
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+    top:50px;
+    left:10%;
+    width:250px;
+}
+body{
+    position: relative;
+
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+}
+.crear_cuenta{
+    text-align: center;
+    color:red;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
