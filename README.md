@@ -1,3 +1,8 @@
+Este proyecto es producto de un aplicativo web desarrollado en el curso de mision tics 2022 con la universidad tecnologica de pereira, 
+en este caso todo el trabajo hecho en cuanto al front es realizato por mi parte. Se busca crear una tienda online organizado con un back en node.js 
+y una base de datos no sql desde mongo db. para hacer el arranque desde el computador es importante desde la terminar ejecutar el comando npm intall, 
+posteriormente npm start.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
